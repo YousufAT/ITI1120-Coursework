@@ -1,3 +1,18 @@
+'''1. Created a function called pay that takes as input an hourly wage and the number of hours an employee worked in the last week. The function computes and return the employee’s pay. Overtime work is paid in this way: Any hours beyond 40 but less than or equal 60 is paid at 1.5 times the regular hourly wage. Any hours beyond 60 is paid at 2 times the regular hourly wage.
+2. Created a function for the game of rock-paper-scissors game, where it returns: 
+->-1 if P1 wins
+->1 if P2 wins
+->0 if a tie occurs
+3. a) Created a program that contains: 
+->a function which has two input parameters that are integers n and m and returns True if n is divisible by m and False otherwise
+->interaction with the user to get two integers which are then passed on to the previous function (is_divisible) and prints a message if the two integers are divisible or not.
+   b) Created a program that contains:
+-> same function as above (is_divisible)
+-> A function (is_divisible23n8) that has one input parameter, an integer. It returns string “yes” if the given number is divisible by 2 or 3 but not 8 (by calling upon (is_divisible)). Otherwise it returns a string “no”.
+->interaction with the user to get one integer which is then passed on to the previous function (is_divisible23n8) and prints a message if the integer isdivisible or not.'''
+
+
+
 #Question 1
 def pay(wage,hours):
 	if hours<=40:
